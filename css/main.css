@@ -1,4 +1,4 @@
-* {
+html {
    font-family: Helvetica;
 }
 
@@ -6,10 +6,19 @@ body {
    margin: auto;
 }
 
-h1 {
-
+ol li {
+   list-style-type: upper-roman;
 }
 
-h2 {border-style: solid;
+q:before{
+   content: "“";
+}
 
+q:after{
+   content: "”";
+}
+
+img{
+   float: left;
+   margin-right: 40px;
 }
