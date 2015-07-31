@@ -56,8 +56,12 @@ div p {
    margin-bottom: 30px;
 }
 
+br div {
+   margin-left: 300px;
+}
+
 p q {
-   font-size: 20px;
+   font-size: 1.2em;
 }
 
 q:before {
@@ -71,10 +75,11 @@ q:after {
 img {
    float: left;
    margin-right: 40px;
+   margin-top: 40px;
 }
 
 h3 {
-   margin-top: 40px;
+   margin-top: 50px;
    margin-bottom: 16px;
    font-family: 'Cantata One', serif;
    font-size: 1.5em;
@@ -96,5 +101,9 @@ h4 {
 
 strong {
    font-style: italic;
+}
+
+footer {
+   font-size: .75em;
 }
 
