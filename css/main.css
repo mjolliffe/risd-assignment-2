@@ -1,24 +1,86 @@
 html {
-   font-family: Helvetica;
+   font-family: 'Imprima', sans-serif;
+   padding: 20px;
+}
+
+header {
+   margin: 50px;
 }
 
 body {
    margin: auto;
 }
 
-ol li {
-   list-style-type: upper-roman;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-q:before{
+ul li {
+    float: left;
+    width: 240px;
+    font-size: 1.2em;
+}
+
+h1 {
+   font-family: 'Cantata One', serif;
+   font-size: 2em;
+   line-height: 1.5em;
+}
+
+
+h2 {
+   margin-bottom: 30px;
+   font-family: 'Cantata One', serif;
+}
+
+div p {
+   font-size: auto;
+   line-height: 20px;
+   margin-bottom: 30px;
+}
+
+p q {
+   font-size: 20px;
+}
+
+q:before {
    content: "“";
 }
 
-q:after{
+q:after {
    content: "”";
 }
 
-img{
+img {
    float: left;
    margin-right: 40px;
 }
+
+h3 {
+   margin-top: 40px;
+   margin-bottom: 16px;
+   font-family: 'Cantata One', serif;
+   font-size: 1.5em;
+}
+
+ol li {
+   list-style-type: upper-roman;
+   line-height: 20px;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+
+h4 {
+   margin-top: 70px;
+   margin-bottom: 20px;
+   font-family: 'Cantata One', serif;
+   font-size: 1.5em;
+}
+
+strong {
+   font-style: italic;
+}
+
