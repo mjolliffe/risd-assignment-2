@@ -1,96 +1,76 @@
 html {
-   font-family: 'Imprima', sans-serif;
-   padding: 20px;
-   color: #314543;
+	font-family: 'Imprima', sans-serif;
+	padding: 20px;
+	color: #314543;
 }
 
 header {
-   margin: 10px;
-   padding: 40px;
-   height:50px;
-   width:100%;
-   position:relative;
+	margin: 20px;
+	padding: 15px;
+	height:40px;
+	position:relative;
 }
 
 ul {
-   font-family: 'Cantata One', serif;
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
+	font-family: 'Cantata One', serif;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 ul li {
-   float: left;
-   width: 200px;
-   font-size: 1.2em;
+	float: left;
+	width: 200px;
+	font-size: 1.2em;
 }
 
 a:link {
-   display: block;
-   color: black;
-   text-align: center;
-   padding: 15px;
-   text-decoration: blink;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 15px;
+	text-decoration: blink;
 }
 
 a:hover, a:active {
-   color:white;
-   background-image: url('../img/estonia_header.jpg');
+	color:white;
+	background-image: url('../img/estonia_header.jpg');
 }
 
 h1 {
-   font-family: 'Cantata One', serif;
-   font-size: 2.5em;
-   line-height: 1.5em;
+	font-family: 'Cantata One', serif;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	color: #991186;
+	position: relative;
+	margin-top: 20px;
 }
 
 
 h2 {
-   margin-bottom: 30px;
-   font-family: 'Cantata One', serif;
-}
-
-div p {
-   font-size: auto;
-   line-height: 20px;
-   margin-bottom: 30px;
-}
-
-br div {
-   margin-left: 300px;
-}
-
-p q {
-   font-size: 1.2em;
-}
-
-q:before {
-   content: "“";
-}
-
-q:after {
-   content: "”";
+	margin-bottom: 30px;
+	font-family: 'Cantata One', serif;
 }
 
 #cf {
-   float: left;
-   position:relative;
-   height:300px;
-   width:300px;
-   padding: 30px;
-   margin:0 auto;
+	float: left;
+	position:relative;
+	height:300px;
+	width:300px;
+	padding: 30px;
+	margin:0 auto;
 }
 
 #cf img {
-   position:absolute;
-   height:300px;
-   width:300px;
-   left:0;
-   -webkit-transition: opacity 1s ease-in-out;
-   -moz-transition: opacity 1s ease-in-out;
-   -o-transition: opacity 1s ease-in-out;
-   transition: opacity 1s ease-in-out;
+	position:absolute;
+	height:300px;
+	width:300px;
+	left:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
 }
 
 #cf img.top:hover {
@@ -98,31 +78,70 @@ q:after {
 }
 
 h3 {
-   margin-top: 40px;
-   margin-bottom: 16px;
-   font-family: 'Cantata One', serif;
-   font-size: 1.5em;
+	margin-top: 80px;
+	margin-bottom: 16px;
+	font-family: 'Cantata One', serif;
+	font-size: 1.5em;
 }
 
 ol li {
-   list-style-type: upper-roman;
-   line-height: 20px;
-   margin-top: 8px;
-   margin-bottom: 8px;
-}
-
-h4 {
-   margin-top: 70px;
-   margin-bottom: 20px;
-   font-family: 'Cantata One', serif;
-   font-size: 1.5em;
+	list-style-type: upper-roman;
+	line-height: 20px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 
 strong {
-   font-style: italic;
+	font-style: italic;
 }
 
+#tab1 {
+	margin-top: 50px;
+	font-size: 1.2em;
+	line-height: 2.4em;
+	color:#991186;
+	position: relative;
+}
+
+#tab2 {
+	margin-left: 200px;
+	font-size: 1.2em;
+	line-height: 2.4em;
+	color:#991186;
+	position: relative;
+}
+
+#tab3 {
+	margin-left: 400px;
+	font-size: 1.2em;
+	line-height: 2.4em;
+	color:#991186;
+	position: relative;
+}
+
+h4 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-family: 'Cantata One', serif;
+	font-size: 1.5em;
+}
+
+em {
+	color: #991186;
+}
+
+div p {
+	line-height: 1.6em;
+	margin-bottom: 30px;
+}
+
+q:before {
+	content: "“";
+}
+
+q:after {
+	content: "”";
+}
 footer {
-   font-size: .75em;
+	font-size: .75em;
 }
-
