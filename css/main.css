@@ -7,7 +7,7 @@ body {
 header {
 	margin: 20px;
 	padding: 15px;
-	height:40px;
+	height:60px;
 	position:relative;
 }
 
@@ -43,10 +43,8 @@ h1 {
 	font-size: 2.5em;
 	line-height: 1.5em;
 	color: #991186;
-	position: relative;
 	margin-top: 20px;
 }
-
 
 h2 {
 	margin-bottom: 30px;
@@ -89,45 +87,26 @@ ol li {
 	line-height: 20px;
 	margin-top: 8px;
 	margin-bottom: 8px;
+	width: fixed;
 }
 
 strong {
 	font-style: italic;
 }
 
-#tab1 {
-	margin-top: 50px;
-	font-size: 1.2em;
-	line-height: 2.4em;
-	color:#991186;
-	position: relative;
-}
-
-#tab2 {
-	margin-left: 200px;
-	font-size: 1.2em;
-	line-height: 2.4em;
-	color:#991186;
-	position: relative;
-}
-
-#tab3 {
-	margin-left: 400px;
-	font-size: 1.2em;
-	line-height: 2.4em;
-	color:#991186;
-	position: relative;
-}
-
 h4 {
+	color: #991186;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-family: 'Cantata One', serif;
+	line-height: 1.6em;
+}
+
+h5 {
 	margin-top: 50px;
 	margin-bottom: 20px;
 	font-family: 'Cantata One', serif;
 	font-size: 1.5em;
-}
-
-em {
-	color: #991186;
 }
 
 div p {
@@ -142,6 +121,7 @@ q:before {
 q:after {
 	content: "”";
 }
+
 footer {
 	font-size: .75em;
 }
