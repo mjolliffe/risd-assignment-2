@@ -1,0 +1,51 @@
+@import '_base.scss';
+@import '_mixins.scss';
+
+body {
+   margin: 40px;
+   border-collapse: collapse;
+}
+
+h1 {
+   font-family: Helvetica;
+   font-size: 10em;
+   color: red;
+   width: 100%;
+   letter-spacing: 70px;
+}
+
+h2, h3, h4 {
+   float: left;
+   border: transparent;
+   width: 400px;
+   margin: 50px;
+}
+
+ol {
+   float: left;
+   border: transparent;
+   width: 400px;
+   margin: 50px;
+}
+
+h5 {
+   clear: all;
+   border: transparent;
+   padding-top: 30px;
+   padding-left: 500px;
+}
+
+div {
+   clear: all;
+   border: transparent;
+   padding-top: 30px;
+   padding-left: 500px;
+}
+
+q:before {
+content: "“";
+}
+
+q:after {
+content: "”";
+}
