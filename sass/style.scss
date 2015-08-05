@@ -55,13 +55,6 @@ a:hover {
   background-color: $color;
 }
 
-#img {
-  max-width: 240px;
-  float: left;
-  padding-right: 30px;
-}
-
-
 h1 {
   color: $color;
   font-family: $font-main;
@@ -74,9 +67,14 @@ h1 {
   opacity: 0.8;
 }
 
-ol {
-  list-style: upper-roman;
-  padding-left: 60px;
+#img {
+  max-width: 240px;
+  float: left;
+  padding-right: 30px;
+}
+
+em {
+  padding-right: 20px;
 }
 
 strong {
@@ -88,15 +86,24 @@ strong {
 p {
   color: $color;
   font-family: $font-main;
-  font-size: 1.5em;
+  font-size: 1.7em;
   background: $bg-color;
-  padding: 0px 30px;
+  padding: 10px 30px;
   line-height: 1.4em;
   letter-spacing: 3px;
   clear: both;
   opacity: 0.8;
 }
 
-.review {
-
+ol {
+  color: $color;
+  font-family: $font-main;
+  font-size: 1.7em;
+  background: $bg-color;
+  padding: 10px 90px;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  clear: both;
+  opacity: 0.8;
+  list-style: upper-roman;
 }

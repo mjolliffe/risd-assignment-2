@@ -112,12 +112,6 @@ a:hover {
   background-color: white;
 }
 
-#img {
-  max-width: 240px;
-  float: left;
-  padding-right: 30px;
-}
-
 h1 {
   color: white;
   font-family: "Crimson Text", serif;
@@ -130,9 +124,14 @@ h1 {
   opacity: 0.8;
 }
 
-ol {
-  list-style: upper-roman;
-  padding-left: 60px;
+#img {
+  max-width: 240px;
+  float: left;
+  padding-right: 30px;
+}
+
+em {
+  padding-right: 20px;
 }
 
 strong {
@@ -144,11 +143,24 @@ strong {
 p {
   color: white;
   font-family: "Crimson Text", serif;
-  font-size: 1.5em;
+  font-size: 1.7em;
   background: #222222;
-  padding: 0px 30px;
+  padding: 10px 30px;
   line-height: 1.4em;
   letter-spacing: 3px;
   clear: both;
   opacity: 0.8;
+}
+
+ol {
+  color: white;
+  font-family: "Crimson Text", serif;
+  font-size: 1.7em;
+  background: #222222;
+  padding: 10px 90px;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  clear: both;
+  opacity: 0.8;
+  list-style: upper-roman;
 }
