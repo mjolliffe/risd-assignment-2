@@ -10,30 +10,39 @@ $bg-color: #222222;
 
 html{
   background: url(../img/tallin.jpg) no-repeat center center fixed;
-  width: 100%;
+  width: 100%
 }
 
-h1 {
+
+.title {
   color: $color;
   font-family: $font-header;
   font-size: $font-size-header;
-  padding-top: 40px;
-  padding-left: 30px;
   text-shadow: 8px 8px rgba(0, 0, 0, 0.6);
+  float: left;
+  width: 60%;
+  padding: 30px;
+  margin-bottom: 60px;
+  letter-spacing: 5px;
 }
 
-ul {
+span {
+  letter-spacing: 16px;
+}
+
+.menu {
   color: $color;
   font-family: $font-header;
   font-size: 4em;
   line-height: 1.4em;
   letter-spacing: 3px;
   text-align: right;
-  padding-right: 30px;
-  padding-left: 30px;
-  float: right;
+  padding: 30px 90px 30px 30px;
+  margin-top: 60px;
   background: $bg-color;
   opacity: 0.8;
+  float: right;
+  width: 20%;
 }
 
 a {
@@ -46,7 +55,7 @@ a:hover {
   background-color: $color;
 }
 
-h5 {
+h3 {
   color: $color;
   font-family: $font-main;
   font-size: 2em;
