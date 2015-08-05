@@ -74,7 +74,7 @@ html {
 .title {
   color: white;
   font-family: Helvetica, sans-serif;
-  font-size: 20em;
+  font-size: 15em;
   text-shadow: 8px 8px rgba(0, 0, 0, 0.6);
   float: left;
   width: 60%;
@@ -84,7 +84,7 @@ html {
 }
 
 span {
-  letter-spacing: 16px;
+  letter-spacing: 13px;
 }
 
 .menu {
@@ -95,7 +95,7 @@ span {
   letter-spacing: 3px;
   text-align: right;
   padding: 30px 90px 30px 30px;
-  margin-top: 60px;
+  margin: 60px 0;
   background: #222222;
   opacity: 0.8;
   float: right;
@@ -112,12 +112,41 @@ a:hover {
   background-color: white;
 }
 
-h3 {
+#img {
+  max-width: 240px;
+  float: left;
+  padding-right: 30px;
+}
+
+h1 {
   color: white;
   font-family: "Crimson Text", serif;
   font-size: 2em;
   background: #222222;
-  padding: 30px;
+  padding: 60px 30px;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  clear: both;
+  opacity: 0.8;
+}
+
+ol {
+  list-style: upper-roman;
+  padding-left: 60px;
+}
+
+strong {
+  font-family: Helvetica, sans-serif;
+  line-height: 2em;
+  font-size: 1.3em;
+}
+
+p {
+  color: white;
+  font-family: "Crimson Text", serif;
+  font-size: 1.5em;
+  background: #222222;
+  padding: 0px 30px;
   line-height: 1.4em;
   letter-spacing: 3px;
   clear: both;

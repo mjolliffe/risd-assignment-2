@@ -3,7 +3,7 @@
 
 $font-header: Helvetica, sans-serif;
 $font-main: 'Crimson Text', serif;
-$font-size-header: 20em;
+$font-size-header: 15em;
 $color: white;
 $bg-color: #222222;
 
@@ -27,7 +27,7 @@ html{
 }
 
 span {
-  letter-spacing: 16px;
+  letter-spacing: 13px;
 }
 
 .menu {
@@ -38,7 +38,7 @@ span {
   letter-spacing: 3px;
   text-align: right;
   padding: 30px 90px 30px 30px;
-  margin-top: 60px;
+  margin: 60px 0;
   background: $bg-color;
   opacity: 0.8;
   float: right;
@@ -55,15 +55,48 @@ a:hover {
   background-color: $color;
 }
 
-h3 {
+#img {
+  max-width: 240px;
+  float: left;
+  padding-right: 30px;
+}
+
+
+h1 {
   color: $color;
   font-family: $font-main;
   font-size: 2em;
   background: $bg-color;
-  padding: 30px;
+  padding: 60px 30px;
   line-height: 1.4em;
   letter-spacing: 3px;
   clear: both;
   opacity: 0.8;
 }
 
+ol {
+  list-style: upper-roman;
+  padding-left: 60px;
+}
+
+strong {
+  font-family: $font-header;
+  line-height: 2em;
+  font-size: 1.3em;
+}
+
+p {
+  color: $color;
+  font-family: $font-main;
+  font-size: 1.5em;
+  background: $bg-color;
+  padding: 0px 30px;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  clear: both;
+  opacity: 0.8;
+}
+
+.review {
+
+}
