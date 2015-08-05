@@ -1,40 +1,117 @@
-/*
-Error: Invalid CSS after "html ": expected selector or at-rule, was "{"
-        on line 10 of sass/style.scss
-
-5: $font-main:Garamong;
-6: $font-size-header: 25em;
-7: $color: white;
-8: $bg-color: #222222
-9: 
-10: html {
-11:   background: url(../img/tallin.jpg) no-repeat center center fixed;
-12: }
-13: 
-14: h1 {
-15:   color: $color;
-
-Backtrace:
-sass/style.scss:10
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1162:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:1098:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/scss/parser.rb:43:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:403:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/engine.rb:278:in `render'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.16/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"html \": expected selector or at-rule, was \"{\"\A         on line 10 of sass/style.scss\A \A 5: $font-main:Garamong;\A 6: $font-size-header: 25em;\A 7: $color: white;\A 8: $bg-color: #222222\A 9: \A 10: html {\A 11:   background: url(../img/tallin.jpg) no-repeat center center fixed;\A 12: }\A 13: \A 14: h1 {\A 15:   color: $color;"; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ------------------------------------------------------------------------------ *\
+   BORDER RADIUS
+\* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ *\
+   TRANSITION
+\* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ *\
+   BOX SHADOW
+\* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ *\
+   LINEAR GRADIENT
+
+   Author: Dan Cederholm
+\* ------------------------------------------------------------------------------ */
+html {
+  background: url(../img/tallin.jpg) no-repeat center center fixed;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 20em;
+  padding-top: 40px;
+  padding-left: 30px;
+  text-shadow: 8px 8px rgba(0, 0, 0, 0.6);
+}
+
+ul {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 4em;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-align: right;
+  padding-right: 30px;
+  padding-left: 30px;
+  float: right;
+  background: #222222;
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #222222;
+  background-color: white;
+}
+
+h5 {
+  color: white;
+  font-family: "Crimson Text", serif;
+  font-size: 2em;
+  background: #222222;
+  padding: 30px;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  clear: both;
+  opacity: 0.8;
+}

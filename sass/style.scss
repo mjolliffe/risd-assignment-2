@@ -1,14 +1,16 @@
 @import '_base.scss';
 @import '_mixins.scss';
 
-$font-header: Helvetica;
-$font-main:Garamong;
-$font-size-header: 25em;
+$font-header: Helvetica, sans-serif;
+$font-main: 'Crimson Text', serif;
+$font-size-header: 20em;
 $color: white;
-$bg-color: #222222
+$bg-color: #222222;
 
-html {
+
+html{
   background: url(../img/tallin.jpg) no-repeat center center fixed;
+  width: 100%;
 }
 
 h1 {
@@ -16,10 +18,35 @@ h1 {
   font-family: $font-header;
   font-size: $font-size-header;
   padding-top: 40px;
+  padding-left: 30px;
   text-shadow: 8px 8px rgba(0, 0, 0, 0.6);
 }
 
-h2 {
+ul {
+  color: $color;
+  font-family: $font-header;
+  font-size: 4em;
+  line-height: 1.4em;
+  letter-spacing: 3px;
+  text-align: right;
+  padding-right: 30px;
+  padding-left: 30px;
+  float: right;
+  background: $bg-color;
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: $color;
+}
+
+a:hover {
+  color: $bg-color;
+  background-color: $color;
+}
+
+h5 {
   color: $color;
   font-family: $font-main;
   font-size: 2em;
@@ -27,4 +54,7 @@ h2 {
   padding: 30px;
   line-height: 1.4em;
   letter-spacing: 3px;
+  clear: both;
+  opacity: 0.8;
 }
+
