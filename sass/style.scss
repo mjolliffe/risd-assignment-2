@@ -1,14 +1,30 @@
 @import '_base.scss';
 @import '_mixins.scss';
 
-body {
-  background-image: url("/Users/MichelleJolliffe/Desktop/assignment-2/img/tallin.jpg")
+$font-header: Helvetica;
+$font-main:Garamong;
+$font-size-header: 25em;
+$color: white;
+$bg-color: #222222
+
+html {
+  background: url(../img/tallin.jpg) no-repeat center center fixed;
 }
 
-q:before {
-content: "“";
+h1 {
+  color: $color;
+  font-family: $font-header;
+  font-size: $font-size-header;
+  padding-top: 40px;
+  text-shadow: 8px 8px rgba(0, 0, 0, 0.6);
 }
 
-q:after {
-content: "”";
+h2 {
+  color: $color;
+  font-family: $font-main;
+  font-size: 2em;
+  background: $bg-color;
+  padding: 30px;
+  line-height: 1.4em;
+  letter-spacing: 3px;
 }
