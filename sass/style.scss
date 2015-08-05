@@ -55,6 +55,15 @@ a:hover {
   background-color: $color;
 }
 
+#img {
+  max-width: 240px;
+  position: relative;
+  top: 17em;
+  left: 30px;
+  padding-right: 30px;
+  z-index: 30;
+}
+
 h1 {
   color: $color;
   font-family: $font-main;
@@ -67,10 +76,8 @@ h1 {
   opacity: 0.8;
 }
 
-#img {
-  max-width: 240px;
-  float: left;
-  padding-right: 30px;
+#padding {
+  padding-left: 320px;
 }
 
 em {
@@ -86,7 +93,7 @@ strong {
 p {
   color: $color;
   font-family: $font-main;
-  font-size: 1.7em;
+  font-size: 2em;
   background: $bg-color;
   padding: 10px 30px;
   line-height: 1.4em;

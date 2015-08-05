@@ -112,6 +112,15 @@ a:hover {
   background-color: white;
 }
 
+#img {
+  max-width: 240px;
+  position: relative;
+  top: 17em;
+  left: 30px;
+  padding-right: 30px;
+  z-index: 30;
+}
+
 h1 {
   color: white;
   font-family: "Crimson Text", serif;
@@ -124,10 +133,8 @@ h1 {
   opacity: 0.8;
 }
 
-#img {
-  max-width: 240px;
-  float: left;
-  padding-right: 30px;
+#padding {
+  padding-left: 320px;
 }
 
 em {
@@ -143,7 +150,7 @@ strong {
 p {
   color: white;
   font-family: "Crimson Text", serif;
-  font-size: 1.7em;
+  font-size: 2em;
   background: #222222;
   padding: 10px 30px;
   line-height: 1.4em;
